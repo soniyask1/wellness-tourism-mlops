@@ -1,0 +1,44 @@
+{
+  "raw_rows": 4128,
+  "clean_rows": 4011,
+  "exact_repeats_removed_after_cleaning": 117,
+  "train_rows": 3209,
+  "test_rows": 802,
+  "train_positive_rate": 0.19289498286070428,
+  "test_positive_rate": 0.19326683291770574,
+  "unique_profile_groups": 3934,
+  "profile_overlap": 0,
+  "excluded_interaction_columns": [
+    "TypeofContact",
+    "DurationOfPitch",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PitchSatisfactionScore"
+  ],
+  "features": [
+    "Age",
+    "CityTier",
+    "NumberOfPersonVisiting",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome",
+    "Occupation",
+    "Gender",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "split_seed": 42,
+  "split_method": "first fold of 5-fold StratifiedGroupKFold",
+  "source_sha256": "3f891d5fbaa3a38a4e74d4cc08be7ce6261f9c193c71535508deec9617dca4da",
+  "split_sha256": {
+    "X_test.csv": "0f61eae3f007c45e28d1edef473f1e95c13e1b8c8312aa496a560e2570d9f37b",
+    "X_train.csv": "82bf4193e67e6b813b221b835385a105fde21f4bcba9a0727cc097efe44b53f3",
+    "groups_test.csv": "21b650bb6784a3596668f36bfee738026a481efae3a0d8e405fbc77175ab5ead",
+    "groups_train.csv": "9eecb7da935e4a59b7f38f29c4392830cc6f2441039bf8463fa735cd6bdc3e44",
+    "y_test.csv": "9bdcf534217167750218325dcc0854338dab145efb0e1e77c1124c4f48437032",
+    "y_train.csv": "a9dbbf295d48e3a729b63feaf4113443e808ffcf97774120dd75932492312be4"
+  }
+}

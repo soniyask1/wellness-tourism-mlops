@@ -1,0 +1,186 @@
+{
+  "path": "tourism_project/data/tourism.csv",
+  "sha256": "3f891d5fbaa3a38a4e74d4cc08be7ce6261f9c193c71535508deec9617dca4da",
+  "rows": 4128,
+  "columns": 21,
+  "missing_by_column": {
+    "Unnamed: 0": 0,
+    "CustomerID": 0,
+    "ProdTaken": 0,
+    "Age": 0,
+    "TypeofContact": 0,
+    "CityTier": 0,
+    "DurationOfPitch": 0,
+    "Occupation": 0,
+    "Gender": 0,
+    "NumberOfPersonVisiting": 0,
+    "NumberOfFollowups": 0,
+    "ProductPitched": 0,
+    "PreferredPropertyStar": 0,
+    "MaritalStatus": 0,
+    "NumberOfTrips": 0,
+    "Passport": 0,
+    "PitchSatisfactionScore": 0,
+    "OwnCar": 0,
+    "NumberOfChildrenVisiting": 0,
+    "Designation": 0,
+    "MonthlyIncome": 0
+  },
+  "target_counts": {
+    "0": 3331,
+    "1": 797
+  },
+  "duplicate_customer_ids": 0,
+  "numeric_summary": {
+    "Unnamed: 0": {
+      "count": 4128.0,
+      "mean": 2527.764,
+      "std": 1409.439,
+      "min": 0.0,
+      "25%": 1320.75,
+      "50%": 2603.5,
+      "75%": 3748.25,
+      "max": 4887.0
+    },
+    "CustomerID": {
+      "count": 4128.0,
+      "mean": 202527.764,
+      "std": 1409.439,
+      "min": 200000.0,
+      "25%": 201320.75,
+      "50%": 202603.5,
+      "75%": 203748.25,
+      "max": 204887.0
+    },
+    "ProdTaken": {
+      "count": 4128.0,
+      "mean": 0.193,
+      "std": 0.395,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    "Age": {
+      "count": 4128.0,
+      "mean": 37.232,
+      "std": 9.175,
+      "min": 18.0,
+      "25%": 31.0,
+      "50%": 36.0,
+      "75%": 43.0,
+      "max": 61.0
+    },
+    "CityTier": {
+      "count": 4128.0,
+      "mean": 1.663,
+      "std": 0.921,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 3.0
+    },
+    "DurationOfPitch": {
+      "count": 4128.0,
+      "mean": 15.585,
+      "std": 8.398,
+      "min": 5.0,
+      "25%": 9.0,
+      "50%": 14.0,
+      "75%": 20.0,
+      "max": 127.0
+    },
+    "NumberOfPersonVisiting": {
+      "count": 4128.0,
+      "mean": 2.949,
+      "std": 0.719,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "NumberOfFollowups": {
+      "count": 4128.0,
+      "mean": 3.742,
+      "std": 1.007,
+      "min": 1.0,
+      "25%": 3.0,
+      "50%": 4.0,
+      "75%": 4.0,
+      "max": 6.0
+    },
+    "PreferredPropertyStar": {
+      "count": 4128.0,
+      "mean": 3.578,
+      "std": 0.795,
+      "min": 3.0,
+      "25%": 3.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "NumberOfTrips": {
+      "count": 4128.0,
+      "mean": 3.295,
+      "std": 1.856,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 22.0
+    },
+    "Passport": {
+      "count": 4128.0,
+      "mean": 0.295,
+      "std": 0.456,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "PitchSatisfactionScore": {
+      "count": 4128.0,
+      "mean": 3.061,
+      "std": 1.363,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "OwnCar": {
+      "count": 4128.0,
+      "mean": 0.612,
+      "std": 0.487,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "NumberOfChildrenVisiting": {
+      "count": 4128.0,
+      "mean": 1.224,
+      "std": 0.853,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 3.0
+    },
+    "MonthlyIncome": {
+      "count": 4128.0,
+      "mean": 23178.464,
+      "std": 4506.615,
+      "min": 1000.0,
+      "25%": 20751.0,
+      "50%": 22418.0,
+      "75%": 25301.0,
+      "max": 98678.0
+    }
+  }
+}

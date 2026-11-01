@@ -1,0 +1,91 @@
+{
+  "algorithm": "RandomForestClassifier",
+  "best_parameters": {
+    "model": "RandomForestClassifier(class_weight='balanced', n_estimators=180, n_jobs=1,\n                       random_state=42)",
+    "model__max_depth": "None",
+    "model__max_features": "sqrt",
+    "model__min_samples_leaf": "1"
+  },
+  "best_cv_average_precision": 0.6840701036636561,
+  "threshold": 0.17222222222222222,
+  "threshold_rule": "maximize F2 using training out-of-fold probabilities",
+  "training_oof_f2": 0.7289107289107289,
+  "test_metrics": {
+    "accuracy": 0.8104738154613467,
+    "precision": 0.505338078291815,
+    "recall": 0.9161290322580645,
+    "f1": 0.6513761467889908,
+    "f2": 0.7880133185349611,
+    "roc_auc": 0.926394774891559,
+    "average_precision": 0.7602143874361693,
+    "brier_score": 0.08724050213971245,
+    "contact_fraction": 0.35037406483790523
+  },
+  "test_metrics_threshold_05": {
+    "accuracy": 0.8640897755610972,
+    "precision": 0.7738095238095238,
+    "recall": 0.41935483870967744,
+    "f1": 0.5439330543933054,
+    "f2": 0.4616477272727273,
+    "roc_auc": 0.926394774891559,
+    "average_precision": 0.7602143874361693,
+    "brier_score": 0.08724050213971245,
+    "contact_fraction": 0.10473815461346633
+  },
+  "baseline_metrics": {
+    "accuracy": 0.8067331670822943,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "f2": 0.0,
+    "roc_auc": 0.5,
+    "average_precision": 0.19326683291770574,
+    "brier_score": 0.15591490248413023,
+    "contact_fraction": 0.0
+  },
+  "confusion_matrix": [
+    [
+      508,
+      139
+    ],
+    [
+      13,
+      142
+    ]
+  ],
+  "test_rows": 802,
+  "train_rows": 3209,
+  "dataset_sha256": "3f891d5fbaa3a38a4e74d4cc08be7ce6261f9c193c71535508deec9617dca4da",
+  "python_version": "3.13.18",
+  "sklearn_version": "1.8.0",
+  "features": [
+    "Age",
+    "CityTier",
+    "NumberOfPersonVisiting",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome",
+    "Occupation",
+    "Gender",
+    "MaritalStatus",
+    "Designation"
+  ],
+  "tracking_backend": "MLflow + portable JSON",
+  "mlflow_status": "executed",
+  "experiment_id": "20261101T174145Z",
+  "holdout_policy": "held-out test evaluated after model and threshold selection; not used for tuning",
+  "bootstrap_95_ci": {
+    "average_precision": [
+      0.6926989939731438,
+      0.8270957417975017
+    ],
+    "recall": [
+      0.868577302631579,
+      0.9552958833619211
+    ]
+  },
+  "bootstrap_method": "500 profile-cluster bootstrap resamples; descriptive test uncertainty"
+}

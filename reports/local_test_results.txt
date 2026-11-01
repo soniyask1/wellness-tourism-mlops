@@ -1,0 +1,15 @@
+test_cleaning_is_idempotent_on_predictors (test_pipeline.PipelineTests.test_cleaning_is_idempotent_on_predictors) ... ok
+test_no_matching_profiles_across_partitions (test_pipeline.PipelineTests.test_no_matching_profiles_across_partitions) ... ok
+test_no_post_contact_or_identifier_features (test_pipeline.PipelineTests.test_no_post_contact_or_identifier_features) ... ok
+test_quality_gate (test_pipeline.PipelineTests.test_quality_gate) ... ok
+test_registration_rejects_bad_target (test_pipeline.PipelineTests.test_registration_rejects_bad_target) ... ok
+test_registration_rejects_missing_target (test_pipeline.PipelineTests.test_registration_rejects_missing_target) ... ok
+test_saved_model_reproduces_evaluation (test_pipeline.PipelineTests.test_saved_model_reproduces_evaluation) ... ok
+test_streamlit_form (test_pipeline.PipelineTests.test_streamlit_form) ... 2026-11-01 17:43:16.462 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_unseen_categories_and_missing_values (test_pipeline.PipelineTests.test_unseen_categories_and_missing_values) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.264s
+
+OK
