@@ -5,11 +5,11 @@ test_quality_gate (test_pipeline.PipelineTests.test_quality_gate) ... ok
 test_registration_rejects_bad_target (test_pipeline.PipelineTests.test_registration_rejects_bad_target) ... ok
 test_registration_rejects_missing_target (test_pipeline.PipelineTests.test_registration_rejects_missing_target) ... ok
 test_saved_model_reproduces_evaluation (test_pipeline.PipelineTests.test_saved_model_reproduces_evaluation) ... ok
-test_streamlit_form (test_pipeline.PipelineTests.test_streamlit_form) ... 2026-11-07 10:47:52.838 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+test_streamlit_form (test_pipeline.PipelineTests.test_streamlit_form) ... 2026-11-07 11:02:12.977 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
 ok
 test_unseen_categories_and_missing_values (test_pipeline.PipelineTests.test_unseen_categories_and_missing_values) ... ok
 
 ----------------------------------------------------------------------
-Ran 9 tests in 5.589s
+Ran 9 tests in 6.153s
 
 OK
