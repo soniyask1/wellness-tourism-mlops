@@ -75,7 +75,7 @@
   ],
   "tracking_backend": "MLflow + portable JSON",
   "mlflow_status": "executed",
-  "experiment_id": "20261107T103304Z",
+  "experiment_id": "20261107T104140Z",
   "holdout_policy": "held-out test evaluated after model and threshold selection; not used for tuning",
   "bootstrap_95_ci": {
     "average_precision": [
