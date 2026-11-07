@@ -56,7 +56,7 @@
   "test_rows": 802,
   "train_rows": 3209,
   "dataset_sha256": "3f891d5fbaa3a38a4e74d4cc08be7ce6261f9c193c71535508deec9617dca4da",
-  "python_version": "3.13.18",
+  "python_version": "3.12.16",
   "sklearn_version": "1.8.0",
   "features": [
     "Age",
@@ -75,7 +75,7 @@
   ],
   "tracking_backend": "MLflow + portable JSON",
   "mlflow_status": "executed",
-  "experiment_id": "20261107T104140Z",
+  "experiment_id": "20261107T104454Z",
   "holdout_policy": "held-out test evaluated after model and threshold selection; not used for tuning",
   "bootstrap_95_ci": {
     "average_precision": [
